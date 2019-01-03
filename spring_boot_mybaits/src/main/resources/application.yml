@@ -1,0 +1,19 @@
+server:
+  port: 8070
+  #context-path:/spring_boot_mybatis
+spring:
+    datasource:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://127.0.0.1:3306/jtdb
+        username: root
+        password: gao944123
+    thymeleaf:
+      prefix: classpath:/templates/
+mybatis:
+  typeAliasesPackage: cn.tedu.sbm.entiry
+  mapperLocations: classpath:mapper/*.xml
+
+logging:
+  level:
+    com.tedu.ssm.mapper: debug

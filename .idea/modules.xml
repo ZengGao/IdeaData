@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CGB-JT-SYS-V1.01/CGB-JT-SYS-V1.01.iml" filepath="$PROJECT_DIR$/CGB-JT-SYS-V1.01/CGB-JT-SYS-V1.01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_boot_mybaits/spring_boot_mybaits.iml" filepath="$PROJECT_DIR$/spring_boot_mybaits/spring_boot_mybaits.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_ssm/spring_ssm.iml" filepath="$PROJECT_DIR$/spring_ssm/spring_ssm.iml" />
+    </modules>
+  </component>
+</project>

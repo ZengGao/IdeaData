@@ -4,7 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>cn.tedu</groupId>
     <artifactId>spring_boot_mybaits</artifactId>
+    <packaging>pom</packaging>
     <version>0.0.1-SNAPSHOT</version>
+    <modules>
+        <module>../spring_demo</module>
+    </modules>
     <name>spring_boot_mybaits</name>
     <description>Demo project for Spring Boot</description>
 
@@ -98,6 +102,11 @@
             <groupId>com.alibaba</groupId>
             <artifactId>druid-spring-boot-starter</artifactId>
             <version>1.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>4.3.9.RELEASE</version>
         </dependency>
     </dependencies>
 

@@ -26,9 +26,9 @@ public class SysMenu implements Serializable{
 	/**资源标识(访问此菜单的权限标识)*/
 	private String  permission;
 	private Date createdTime;
-    private Date modifiedTime;
-    private String createdUser;
-    private String modifiedUser;
+	private Date modifiedTime;
+	private String createdUser;
+	private String modifiedUser;
 	public Integer getId() {
 		return id;
 	}
@@ -101,6 +101,6 @@ public class SysMenu implements Serializable{
 	public void setModifiedUser(String modifiedUser) {
 		this.modifiedUser = modifiedUser;
 	}
-    
+
 
 }
